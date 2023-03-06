@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+
+div.parallax {
+	width: 100%;
+	min-height: 100vh;
+	background: url("https://media.tenor.com/rVJMTGG_uKkAAAAC/miasto.gif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+div.text-div {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+
+div.parallax-2 {
+	width: 100%;
+	min-height: 100vh;
+	background: url("https://media.tenor.com/b_xNRUNcjt4AAAAC/retro-wave.gif");
+	/* background: url("https://media.tenor.com/DsmnmfbfDmYAAAAC/vaporwave-glitch.gif"); */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+@media (max-width: 576px) {
+	div.parallax,
+	div.parallax-2 {
+		width: 100%;
+		position: relative;
+		min-height: 100vh;
+		background-position-x: center;
+		padding: 40px;
+	}
+}
+h1{
+    /* color: white; */
+    font-family: 'Montserrat', sans-serif;
+}
