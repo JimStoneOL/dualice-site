@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+
+div.parallax {
+	width: 100%;
+	min-height: 100vh;
+	background: url("https://media.tenor.com/Mc8zXqgmqS0AAAAC/retrowave.gif");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+div.text-div {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+
+div.parallax-2 {
+	width: 100%;
+	min-height: 100vh;
+	background: url("https://media.tenor.com/b_xNRUNcjt4AAAAC/retro-wave.gif");
+	/* background: url("https://media.tenor.com/DsmnmfbfDmYAAAAC/vaporwave-glitch.gif"); */
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+@media (max-width: 576px) {
+	div.parallax,
+	div.parallax-2 {
+		width: 100%;
+		position: relative;
+		min-height: 100vh;
+		background-position-x: center;
+		padding: 40px;
+	}
+}
+h1{
+    /* color: white; */
+    font-family: 'Montserrat', sans-serif;
+}
+:root {
+	--card-height: 300px;
+	--card-width: calc(var(--card-height) / 1.5);
+  }
+  .card1 {
+	width: var(--card-width);
+	height: var(--card-height);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 0 36px;
+	perspective: 2500px;
+	margin: 0 50px;
+  }
+  
+  .cover-image1 {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .wrapper1 {
+	transition: all 0.5s;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+  }
+  
+  .card1:hover .wrapper1 {
+	transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+	box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  }
+  
+  .wrapper1::before,
+  .wrapper1::after {
+	content: "";
+	opacity: 0;
+	width: 100%;
+	height: 80px;
+	transition: all 0.5s;
+	position: absolute;
+	left: 0;
+  }
+  .wrapper1::before {
+	top: 0;
+	height: 100%;
+	background-image: linear-gradient(
+	  to top,
+	  transparent 46%,
+	  rgba(12, 13, 19, 0.5) 68%,
+	  rgba(12, 13, 19) 97%
+	);
+  }
+  .wrapper1::after {
+	bottom: 0;
+	opacity: 1;
+	background-image: linear-gradient(
+	  to bottom,
+	  transparent 46%,
+	  rgba(12, 13, 19, 0.5) 68%,
+	  rgba(12, 13, 19) 97%
+	);
+  }
+  
+  .card1:hover .wrapper1::before,
+  .wrapper1::after {
+	opacity: 1;
+  }
+  
+  .card1:hover .wrapper1::after {
+	height: 120px;
+  }
+  .title1 {
+	width: 100%;
+	transition: transform 0.5s;
+  }
+  .card1:hover .title1 {
+	transform: translate3d(0%, -50px, 100px);
+  }
+  
+  .character1 {
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+	position: absolute;
+	z-index: -1;
+  }
+  
+  .card1:hover .character1 {
+	opacity: 1;
+	transform: translate3d(0%, -30%, 100px);
+  }
+  

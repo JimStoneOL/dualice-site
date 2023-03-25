@@ -20,7 +20,7 @@ export default class Product extends Component {
                                     value.addToCart(id);
                                     value.openModal(id);
                                 }}>
-                                {inCart ? (<p className="text-capitalize mb-0" disabled>{""}in Cart</p>)
+                                {inCart ? (<p className="text-capitalize mb-0" disabled>{""}В корзине</p>)
                                     : (<i className="fas fa-cart-plus" />)}
                             </button>
                         </div>)}
@@ -56,7 +56,7 @@ const ProducrWrapper =styled.div`
     transition:all 1s linear;
 }
 .card-footer{
-    color:#5ae936;
+    color:#03fc94;
     background:#272136;
     border-top:transparent;
     transition:all 1s linear;
@@ -67,7 +67,7 @@ const ProducrWrapper =styled.div`
         box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
     }
     .card-footer{
-        background:#5ae936;
+        background:#03fc94;
         color:#272136;
     }
 }
@@ -86,7 +86,7 @@ const ProducrWrapper =styled.div`
     bottom:0;
     right:0;
     padding:0.2rem 0.4rem;
-    background:var(--lightBlue);
+    background:black;
     color:var(--mainWhite);
     font-size:1.4rem;
     border-radius:0.5 rem 0 0 0;

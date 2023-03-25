@@ -29,6 +29,7 @@ export default function CartTotals({value}) {
                         <span className="text-title">Итоговая сумма :</span>
                         <strong>{cartTotal}</strong>
                     </h5>
+                    <h6 className="other-title">Отправьте ваше техническое задание на почту marat.maliugin@yandex.ru Мы с вами свяжемся</h6>
                </div>
            </div>
        </div>

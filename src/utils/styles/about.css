@@ -6,10 +6,9 @@
 div.parallax {
 	width: 100%;
 	min-height: 100vh;
-	background-color: black;
+	background: url("https://media.tenor.com/65qa2c_K9pYAAAAM/pixel-pixel.gif");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background: url("../img/plakat1.jpg");
 	background-size: cover;
 }
 
@@ -20,13 +19,12 @@ div.text-div {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	color:white;
 }
 
 div.parallax-2 {
 	width: 100%;
 	min-height: 100vh;
-	background: url("../img/plakat2.jpg");
+	background: url("https://i.pinimg.com/originals/73/f1/25/73f1250fe6b2da47c226381f9925adf4.gif");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;

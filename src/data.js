@@ -7,7 +7,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "Веб-приложение",
-    img: "https://i.imgur.com/8JDrUsH.png",
+    img: "img/product-5.png",
     price: 120000,
     company: "Веб-приложение - приложение со сложной архитектурой",
     info:
@@ -19,7 +19,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "CMS Сайт",
-    img: "https://i.imgur.com/R5TLqn0.png",
+    img: "img/product-2.png",
     price: 30000,
     company: "CMS сайт - приложение с управлением содержимым и простой архитектурой",
     info:
@@ -31,7 +31,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "Мобильное приложение",
-    img: "https://i.imgur.com/F8nhc6c.png",
+    img: "img/product-3.png",
     price: 50000,
     company: "Имеет высокий спрос на рынке",
     info:
@@ -43,7 +43,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "Дизайн",
-    img: "https://i.imgur.com/48q9E3q.jpg",
+    img: "img/product-6.png",
     price: 15000,
     company: "Важная часть любого продукта",
     info:
@@ -55,7 +55,7 @@ export const storeProducts = [
   {
     id: 5,
     title: "Telegram бот",
-    img: "https://i.imgur.com/RkHzeyI.png",
+    img: "img/product-4.png",
     price: 20000,
     company: "Прост, быстр, полезен",
     info:
@@ -67,7 +67,7 @@ export const storeProducts = [
   {
     id: 6,
     title: "Реклама",
-    img: "https://i.imgur.com/TZ0HRc3.png",
+    img: "img/product-1.png",
     price: 25000,
     company: "Без рекламы, о вашем приложении никто не узнает",
     info:
@@ -79,11 +79,23 @@ export const storeProducts = [
   {
     id: 7,
     title: "Бизнес консалтинг",
-    img: "https://i.imgur.com/LTEDm0L.jpg",
+    img: "img/product-7.png",
     price: 2500,
     company: "Бизнес - это не сложно",
     info:
       "Если вы только новичок в сфере бизнеса, вам просто необходим бизнес-консультант. Бизнес - это исследование рынка и следование ему. Необязательно быть экономистом, чтобы открыть бизнес",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 8,
+    title: "Пакет Grand",
+    img: "img/product-8.png",
+    price: 200000,
+    company: "ЛУЧШЕЕ НАЧАЛО ДЛЯ БИЗНЕСА",
+    info:
+      "РАЗРАБОТКА ВЕБ-ПРИЛОЖЕНИЯ, ДИЗАЙН, РЕКЛАМА, РАЗРАБОТКА МОБИЛЬНОГО ПРИЛОЖЕНИЯ (IOS/ANDROID), БИЗНЕС-КОНСУЛЬТИРОВАНИЕ 10 СЕАНСОВ ЭКОНОМИЯ 20.000 РУБ.",
     inCart: false,
     count: 0,
     total: 0
@@ -93,7 +105,7 @@ export const storeProducts = [
 export const detailProduct = {
   id: 1,
   title: "Веб-приложение",
-  img: "https://i.imgur.com/8JDrUsH.png",
+  img: "img/product-5.png",
   price: 120000,
   company: "Веб-приложение - приложение со сложной архитектурой, работающая в браузере.",
   info:
